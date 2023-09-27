@@ -8,10 +8,7 @@ const About = () => {
         <article>
           <SectionTitle text="About journey" />
           <p className="text-slate-600 mt-8 leading-loose">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
-            omnis exercitationem tempora, aliquid deleniti tenetur vero esse
-            praesentium eaque dicta fugiat? Molestiae expedita, nulla neque
-            error porro sint distinctio possimus!
+          Senior UI Designer/Developer specializing in front end Design and Development. Well-versed in numerous programming languages including HTML5, JavaScript, CSS, React.
           </p>
         </article>
       </div>
