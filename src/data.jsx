@@ -1,6 +1,6 @@
 import { nanoid } from 'nanoid';
-import { FaHtml5, FaJs, FaReact, FaFigma } from 'react-icons/fa';
-import {BiLogoTailwindCss} from 'react-icons/bi'
+import { FaHtml5, FaJs, FaReact, FaFigma, FaSearchDollar } from 'react-icons/fa';
+import {BiLogoTailwindCss, BiLogoRedux} from 'react-icons/bi'
 import Astore from './assets/img/ashuStore.png'
 import CocktaiPage from './assets/img/cocktaiPage.png'
 import ImageSplash from './assets/img/imageSplash.png'
@@ -24,6 +24,12 @@ export const links = [
 export const skills = [
   {
     id: nanoid(),
+    title: 'React',
+    icon: <FaReact className='h-16 w-16 text-emerald-500' />,
+    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+  },
+  {
+    id: nanoid(),
     title: 'HTML&CSS',
     icon: <FaHtml5 className='h-16 w-16 text-emerald-500' />,
     text: 'Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
@@ -34,23 +40,30 @@ export const skills = [
     icon: <FaJs className='h-16 w-16 text-emerald-500' />,
     text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality',
   },
-  {
-    id: nanoid(),
-    title: 'React',
-    icon: <FaReact className='h-16 w-16 text-emerald-500' />,
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
-  },
+
   {
     id: nanoid(),
     title: 'Tailwind',
     icon: <BiLogoTailwindCss className='h-16 w-16 text-emerald-500' />,
-    text: 'Proficiency in Tailwind css',
+    text: 'Skilled in building modern, responsive, and visually appealing user interfaces using Tailwind CSS',
   },
   {
     id: nanoid(),
     title: 'Figma',
     icon: <FaFigma className='h-16 w-16 text-emerald-500' />,
-    text: 'Proficiency in Figma',
+    text: 'Experienced in collaborating with cross-functional teams using shared libraries, components, and design systems',
+  },
+  {
+    id: nanoid(),
+    title: 'Redux',
+    icon: <BiLogoRedux  className='h-16 w-16 text-emerald-500' />,
+    text: 'Experienced in debugging and monitoring state using tools like Redux DevTools',
+  },
+  {
+    id: nanoid(),
+    title: 'SEO',
+    icon: <FaSearchDollar className='h-16 w-16 text-emerald-500' />,
+    text: 'Experienced in technical SEO, including site audits, improving page speed, and ensuring mobile-friendly design',
   },
 ];
 

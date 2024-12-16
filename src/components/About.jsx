@@ -8,7 +8,8 @@ const About = () => {
         <article>
           <SectionTitle text="About journey" />
           <p className="text-slate-600 mt-8 leading-loose">
-          Senior UI Designer/Developer specializing in front end Design and Development. Well-versed in numerous programming languages including HTML5, JavaScript, CSS, React.
+         <b> Senior UI Developer </b> specializing in frontend Development. Well-versed in numerous programming languages 
+          including React, Redux, HTML5, JavaScript, CSS, Jquery
           </p>
         </article>
       </div>
